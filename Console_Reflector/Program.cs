@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Draw_ClassLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -110,6 +111,7 @@ namespace Console_Reflector
 
 			//Type typeTriangle = assembly.GetType("Draw_ClassLibrary.Triangle");
 			//Console.WriteLine(typeTriangle);
+			
 			}
 		}
 	}

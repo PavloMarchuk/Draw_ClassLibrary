@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Draw_ClassLibrary
 	{
-	interface IFigure
+	public interface IFigure
 		{
 		double Square();
 		double Perimetr();

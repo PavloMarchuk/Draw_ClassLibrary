@@ -39,6 +39,24 @@ namespace Draw_ClassLibrary
 			return 16;
 			}
 		}
+
+	public class Test: IFigure
+		{
+		void IFigure.Display()
+			{
+			throw new NotImplementedException();
+			}
+
+		double IFigure.Perimetr()
+			{
+			throw new NotImplementedException();
+			}
+
+		double IFigure.Square()
+			{
+			throw new NotImplementedException();
+			}
+		}
 	}
 
 
